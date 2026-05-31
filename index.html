@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport"
+  content="width=device-width, initial-scale=1.0">
+
+  <title>Mood Lamp</title>
+
+  <link rel="stylesheet"
+  href="style.css">
+</head>
+<body id="body">
+
+<div class="container">
+
+  <h1>✨ Mood Lamp</h1>
+
+  <input
+  type="text"
+  id="moodInput"
+  placeholder="Enter your mood">
+
+  <button onclick="changeMood()">
+    Generate Aura
+  </button>
+
+  <div class="mood-card">
+
+    <h2 id="emoji">😶</h2>
+
+    <h3 id="moodName">
+      Your aura will appear here
+    </h3>
+
+    <p id="quote"></p>
+
+  </div>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>

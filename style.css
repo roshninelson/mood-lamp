@@ -1,0 +1,61 @@
+body{
+  margin:0;
+  font-family:Arial;
+  height:100vh;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  transition:1s;
+  background:#111827;
+  color:white;
+}
+
+.container{
+  width:450px;
+  text-align:center;
+  background:rgba(255,255,255,0.1);
+  padding:30px;
+  border-radius:25px;
+  backdrop-filter:blur(10px);
+}
+
+h1{
+  margin-bottom:20px;
+}
+
+input{
+  width:100%;
+  padding:15px;
+  border:none;
+  border-radius:15px;
+  font-size:16px;
+  box-sizing:border-box;
+}
+
+button{
+  width:100%;
+  margin-top:15px;
+  padding:15px;
+  border:none;
+  border-radius:15px;
+  background:white;
+  cursor:pointer;
+  font-size:16px;
+  font-weight:bold;
+}
+
+.mood-card{
+  margin-top:30px;
+  padding:25px;
+  border-radius:20px;
+  background:rgba(255,255,255,0.1);
+}
+
+#emoji{
+  font-size:70px;
+}
+
+#quote{
+  margin-top:15px;
+  line-height:1.6;
+}
